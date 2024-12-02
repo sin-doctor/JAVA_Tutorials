@@ -1,35 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5222803-7de0-49bd-97a4-423f1f6b4606" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/../../java-workspace/10_Exception/src/throwsExceptionPre/ThrowsPre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../java-workspace/10_Exception/src/throwsExceptionPre/ThrowsPreRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-workspace/10_Exception/src/익셉션.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-workspace/10_Exception/src/익셉션.txt" afterDir="false" />
+    <list default="true" id="22831a16-8870-43fa-a551-7c88bb250cc5" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/../../JavaProjects/JAVAPROJECT/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaProjects/JAVAPROJECT/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaProjects/JAVAPROJECT/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaProjects/JAVAPROJECT/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10_Exception/src/throwsExceptionPre/ThrowsPre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10_Exception/src/throwsExceptionPre/ThrowsPreRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/conditionEx/ConditionPre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/conditionEx/ConditionSwitchEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/conditionEx/ConditionifEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/conditionEx/ConditionifExRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/conditionEx/CondotionSwitchPre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/loopEx/ForEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/loopEx/LoopRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/loopEx/WhileEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/operatorEx/OperatorEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/operatorEx/OperatorPre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/variableEx/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/variableEx/PrintEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/variableEx/ScannerEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/variableEx/Variable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10_Exception/src/익셉션.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../10_Exception/src/익셉션.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "sin-doctor"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sin-doctor&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/sin-doctor/02_Java_IntelliJ2.git",
-    "accountId": "97f0b43e-a198-43bc-a50d-e9a18a3bd812"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sin-doctor/02_Java_IntelliJ2.git&quot;,
+    &quot;accountId&quot;: &quot;97f0b43e-a198-43bc-a50d-e9a18a3bd812&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
-  <component name="ProjectId" id="2pdypNUjIw9wzOoZubeV7AYW8wt" />
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2pdyvmpWGcG25pWpfRT6gIiQiTp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,16 +70,26 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/user1/IdeaProjects/JavaProjects/JAVAPROJECT",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+    "onboarding.tips.debug.path": "C:/Users/user1/IdeaProjects/java-workspace/javaprojects/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.ConditionifExRun.executor": "Run",
+    "애플리케이션.LoopRun.executor": "Run",
+    "애플리케이션.OperatorPre.executor": "Run",
+    "애플리케이션.conditionifExRun.executor": "Run"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kh.loopEx" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -60,16 +101,28 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="c5222803-7de0-49bd-97a4-423f1f6b4606" name="변경" comment="" />
-      <created>1733110428349</created>
+      <changelist id="22831a16-8870-43fa-a551-7c88bb250cc5" name="변경" comment="" />
+      <created>1733110480016</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1733110428349</updated>
-      <workItem from="1733110429622" duration="54000" />
+      <updated>1733110480016</updated>
+      <workItem from="1733110480986" duration="9129000" />
+      <workItem from="1733122983477" duration="3736000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
