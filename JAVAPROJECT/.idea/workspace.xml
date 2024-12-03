@@ -4,28 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22831a16-8870-43fa-a551-7c88bb250cc5" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/../../JavaProjects/JAVAPROJECT/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JavaProjects/JAVAPROJECT/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JavaProjects/JAVAPROJECT/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JavaProjects/JAVAPROJECT/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../10_Exception/src/throwsExceptionPre/ThrowsPre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../10_Exception/src/throwsExceptionPre/ThrowsPreRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/conditionEx/ConditionPre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/conditionEx/ConditionSwitchEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/conditionEx/ConditionifEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/conditionEx/ConditionifExRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/conditionEx/CondotionSwitchPre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/loopEx/ForEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/loopEx/LoopRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/loopEx/WhileEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/operatorEx/OperatorEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/operatorEx/OperatorPre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/variableEx/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/variableEx/PrintEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/variableEx/ScannerEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/variableEx/Variable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_Exception/src/익셉션.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../10_Exception/src/익셉션.txt" afterDir="false" />
+    <list default="true" id="22831a16-8870-43fa-a551-7c88bb250cc5" name="변경" comment="java tuto">
+      <change afterPath="$PROJECT_DIR$/src/com/kh/practice8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-workspace/11_io/src/com/kh/pack2/pre4/FileWriteTrue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-workspace/11_io/src/com/kh/pack2/pre4/FileWriteTrue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -82,13 +65,34 @@
     "애플리케이션.ConditionifExRun.executor": "Run",
     "애플리케이션.LoopRun.executor": "Run",
     "애플리케이션.OperatorPre.executor": "Run",
-    "애플리케이션.conditionifExRun.executor": "Run"
+    "애플리케이션.conditionifExRun.executor": "Run",
+    "애플리케이션.practice8.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.kh.loopEx" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="practice8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kh.practice8" />
+      <module name="javaprojects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.practice8" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -108,11 +112,25 @@
       <updated>1733110480016</updated>
       <workItem from="1733110480986" duration="9129000" />
       <workItem from="1733122983477" duration="3736000" />
+      <workItem from="1733126926887" duration="2223000" />
     </task>
+    <task id="LOCAL-00001" summary="java tuto">
+      <option name="closed" value="true" />
+      <created>1733127214592</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733127214592</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="java tuto" />
+    <option name="LAST_COMMIT_MESSAGE" value="java tuto" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
