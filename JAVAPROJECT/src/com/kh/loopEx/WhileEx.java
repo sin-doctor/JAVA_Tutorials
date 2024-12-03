@@ -1,5 +1,7 @@
 package com.kh.loopEx;
 
+import java.util.Scanner;
+
 public class WhileEx {
 
     /*
@@ -34,17 +36,20 @@ public class WhileEx {
     // Scanner는 LoopRun에서만 사용할 것!
     public void method1(int input){
         int sum = 0; // 합계 누적용 변수
-
        // int input = 0; // 입력 값을 저장할 변수
 
         while (input != -1) { // 입력값이 -1이 아니면 반복
             System.out.print("--- 반복 시작 ---");
 
             if (input != -1) sum += input; // -1이 입력된 경우 제외
+            // 입력한 값 갱신을 위해 설정하는 input
+            // LoopRun 에서 Scanner로 입력 받은 값을 실행하는 method1에 들어와서
+            // input 값을 다시 새로 작성하는 코드가 존재하지 않기 때문에 무한루프 발생
+            // 다시 input 값을 재정의 할 수 있도록 작성
+            input = new Scanner(System.in).nextInt();
 
-            System.out.println("합계 : " + sum);
-            break;
         }
+            System.out.println("합계 : " + sum);
     }
     /*
     * do-while()

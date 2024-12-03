@@ -4,16 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22831a16-8870-43fa-a551-7c88bb250cc5" name="변경" comment="java tuto">
-      <change afterPath="$PROJECT_DIR$/src/com/kh/accessModifierEX/AccessModifierEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/arrayEx/ArrayEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/memoryEx/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/methodEx/MethodEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/oopEx/Nation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/oopEx/OopRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/oopEx/Student.java" afterDir="false" />
+    <list default="true" id="22831a16-8870-43fa-a551-7c88bb250cc5" name="변경" comment="배열 객체 메모리구조 메서드 컬렉션~">
+      <change afterPath="$PROJECT_DIR$/src/com/kh/Javalastquest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/exceptionEx/ExceptionEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/ioEx/ioEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/memoryEx/01_배열 선언, 초기화 전 후 메모리구.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/memoryEx/02_객체생성_Nation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/memoryEx/04_상속_메모리_구조.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/memoryEx/GarbageCollectionEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/memoryEx/string.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/memoryEx/student.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/polymorphismEx/PolymorphismEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritanceEx/InheritanceEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritanceEx/부모.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritanceEx/손자.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritanceEx/자식.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kh/collectionEx/ListEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kh/collectionEx/ListEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kh/collectionEx/MapEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kh/collectionEx/MapEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kh/collectionEx/SetEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kh/collectionEx/SetEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kh/loopEx/LoopRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kh/loopEx/LoopRun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kh/loopEx/WhileEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kh/loopEx/WhileEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kh/memoryEx/img.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,21 +77,52 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/user1/IdeaProjects/java-workspace/javaprojects/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.intellij.sdk.settings.AppSettingsConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
     &quot;애플리케이션.ConditionifExRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.GarbageCollectionEx.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.LoopRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.MapEx.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.OperatorPre.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.conditionifExRun.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.practice8.executor&quot;: &quot;Run&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user1\IdeaProjects\JavaProjects\JAVAPROJECT\src\com\kh\memoryEx" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.kh.loopEx" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="애플리케이션.MapEx">
+    <configuration name="GarbageCollectionEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kh.memoryEx.GarbageCollectionEx" />
+      <module name="javaprojects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kh.memoryEx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kh.collectionEx.MapEx" />
+      <module name="javaprojects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kh.collectionEx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="practice8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kh.practice8" />
       <module name="javaprojects" />
@@ -95,6 +138,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.MapEx" />
+        <item itemvalue="애플리케이션.GarbageCollectionEx" />
         <item itemvalue="애플리케이션.practice8" />
       </list>
     </recent_temporary>
@@ -119,7 +164,9 @@
       <workItem from="1733122983477" duration="3736000" />
       <workItem from="1733126926887" duration="2223000" />
       <workItem from="1733184020804" duration="1994000" />
-      <workItem from="1733187003293" duration="6546000" />
+      <workItem from="1733187003293" duration="13567000" />
+      <workItem from="1733203871205" duration="9201000" />
+      <workItem from="1733213458429" duration="873000" />
     </task>
     <task id="LOCAL-00001" summary="java tuto">
       <option name="closed" value="true" />
@@ -137,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733184043300</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="배열 객체 메모리구조 메서드 컬렉션~">
+      <option name="closed" value="true" />
+      <created>1733194873212</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733194873212</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +200,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java tuto" />
-    <option name="LAST_COMMIT_MESSAGE" value="java tuto" />
+    <MESSAGE value="배열 객체 메모리구조 메서드 컬렉션~" />
+    <option name="LAST_COMMIT_MESSAGE" value="배열 객체 메모리구조 메서드 컬렉션~" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
