@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22831a16-8870-43fa-a551-7c88bb250cc5" name="변경" comment="java tuto">
-      <change afterPath="$PROJECT_DIR$/src/com/kh/practice8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/accessModifierEX/AccessModifierEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/arrayEx/ArrayEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/memoryEx/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/methodEx/MethodEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/oopEx/Nation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/oopEx/OopRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/oopEx/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-workspace/11_io/src/com/kh/pack2/pre4/FileWriteTrue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-workspace/11_io/src/com/kh/pack2/pre4/FileWriteTrue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kh/loopEx/WhileEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kh/loopEx/WhileEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,27 +53,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/user1/IdeaProjects/java-workspace/javaprojects/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true",
-    "애플리케이션.ConditionifExRun.executor": "Run",
-    "애플리케이션.LoopRun.executor": "Run",
-    "애플리케이션.OperatorPre.executor": "Run",
-    "애플리케이션.conditionifExRun.executor": "Run",
-    "애플리케이션.practice8.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/user1/IdeaProjects/java-workspace/javaprojects/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;애플리케이션.ConditionifExRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.LoopRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.OperatorPre.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.conditionifExRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.practice8.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.kh.loopEx" />
@@ -113,6 +118,8 @@
       <workItem from="1733110480986" duration="9129000" />
       <workItem from="1733122983477" duration="3736000" />
       <workItem from="1733126926887" duration="2223000" />
+      <workItem from="1733184020804" duration="1994000" />
+      <workItem from="1733187003293" duration="6546000" />
     </task>
     <task id="LOCAL-00001" summary="java tuto">
       <option name="closed" value="true" />
@@ -122,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733127214592</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="java tuto">
+      <option name="closed" value="true" />
+      <created>1733184043300</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733184043300</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
