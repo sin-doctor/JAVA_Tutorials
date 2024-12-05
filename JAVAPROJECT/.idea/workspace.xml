@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22831a16-8870-43fa-a551-7c88bb250cc5" name="변경" comment="java 실습">
-      <change afterPath="$PROJECT_DIR$/src/com/kh/arrayEx/ArrayToStringEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/arrayEx/ArraysEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceEX/arrayPre/ArrayPre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceTotal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceTotal/AnimalRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceTotal/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceTotal/BankAccountRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceTotal/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceTotal/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceTotal/TodoServiceImple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceTotal/TotalService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceTotal/TotalServiceRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceTotal/TotoService.java" afterDir="false" />
+    <list default="true" id="22831a16-8870-43fa-a551-7c88bb250cc5" name="변경" comment="Arrays">
+      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceEX/arrayPre/ArraysPre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kh/arrayEx/ArraysEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kh/arrayEx/ArraysEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +63,8 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
     &quot;애플리케이션.ArrayPre.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.ArrayToStringEx.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ArraysEx.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ArraysPre.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.ConditionifExRun.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.GarbageCollectionEx.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.LoopRun.executor&quot;: &quot;Run&quot;,
@@ -93,7 +84,7 @@
       <recent name="com.kh.loopEx" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ArrayPre">
+  <component name="RunManager" selected="애플리케이션.ArraysPre">
     <configuration name="ArrayPre" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kh.practiceEX.arrayPre.ArrayPre" />
       <module name="javaprojects" />
@@ -120,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GarbageCollectionEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kh.memoryEx.GarbageCollectionEx" />
+    <configuration name="ArraysEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kh.arrayEx.ArraysEx" />
       <module name="javaprojects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kh.memoryEx.*" />
+          <option name="PATTERN" value="com.kh.arrayEx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kh.collectionEx.MapEx" />
+    <configuration name="ArraysPre" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kh.practiceEX.arrayPre.ArraysPre" />
       <module name="javaprojects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kh.collectionEx.*" />
+          <option name="PATTERN" value="com.kh.practiceEX.arrayPre.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.ArraysPre" />
+        <item itemvalue="애플리케이션.ArraysEx" />
         <item itemvalue="애플리케이션.ArrayPre" />
         <item itemvalue="애플리케이션.ArrayToStringEx" />
         <item itemvalue="애플리케이션.UnifiedMethods" />
-        <item itemvalue="애플리케이션.MapEx" />
-        <item itemvalue="애플리케이션.GarbageCollectionEx" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +189,8 @@
       <workItem from="1733361454122" duration="394000" />
       <workItem from="1733361964527" duration="4136000" />
       <workItem from="1733366291234" duration="299000" />
-      <workItem from="1733366681905" duration="1436000" />
+      <workItem from="1733366681905" duration="3033000" />
+      <workItem from="1733370100447" duration="47000" />
     </task>
     <task id="LOCAL-00001" summary="java tuto">
       <option name="closed" value="true" />
@@ -240,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733274891733</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Arrays">
+      <option name="closed" value="true" />
+      <created>1733368498446</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733368498446</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +251,8 @@
     <MESSAGE value="배열 객체 메모리구조 메서드 컬렉션~" />
     <MESSAGE value="자바 튜토리얼 마무리" />
     <MESSAGE value="java 실습" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 실습" />
+    <MESSAGE value="Arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrays" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
