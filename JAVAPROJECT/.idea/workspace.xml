@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22831a16-8870-43fa-a551-7c88bb250cc5" name="변경" comment="Arrays">
-      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceEX/arrayPre/ArraysPre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceEX/arrayPre/CarArrayPre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceEX/arrayPre/CarArrayPreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceEX/dbpre/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceEX/dbpre/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceEX/dbpre/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceEX/oopArrayPre/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceEX/oopArrayPre/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceEX/oopArrayPre/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceEX/oopArrayPre/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceEX/oopArrayPre/ProductServiceRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceEX/oopArrayPre/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceEX/oopArrayPre/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceEX/oopArrayPre/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceEX/oopArrayPre/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/practiceEX/oopArrayPre/UserServiceRun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kh/arrayEx/ArraysEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kh/arrayEx/ArraysEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,50 +60,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/user1/IdeaProjects/java-workspace/javaprojects/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.intellij.sdk.settings.AppSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;애플리케이션.ArrayPre.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ArrayToStringEx.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ArraysEx.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ArraysPre.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ConditionifExRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.GarbageCollectionEx.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.LoopRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.MapEx.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.OperatorPre.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.UnifiedMethods.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.conditionifExRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.practice8.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/user1/IdeaProjects/java-workspace/javaprojects/src/Main.java",
+    "settings.editor.selected.configurable": "org.intellij.sdk.settings.AppSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.ArrayPre.executor": "Run",
+    "애플리케이션.ArrayToStringEx.executor": "Run",
+    "애플리케이션.ArraysEx.executor": "Run",
+    "애플리케이션.ArraysPre.executor": "Run",
+    "애플리케이션.CarArrayPreService.executor": "Run",
+    "애플리케이션.ConditionifExRun.executor": "Run",
+    "애플리케이션.GarbageCollectionEx.executor": "Run",
+    "애플리케이션.LoopRun.executor": "Run",
+    "애플리케이션.MapEx.executor": "Run",
+    "애플리케이션.OperatorPre.executor": "Run",
+    "애플리케이션.PersonService.executor": "Run",
+    "애플리케이션.ProductServiceRun.executor": "Run",
+    "애플리케이션.StudentService.executor": "Run",
+    "애플리케이션.UnifiedMethods.executor": "Run",
+    "애플리케이션.UserService.executor": "Run",
+    "애플리케이션.UserServiceRun.executor": "Run",
+    "애플리케이션.conditionifExRun.executor": "Run",
+    "애플리케이션.practice8.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user1\IdeaProjects\JavaProjects\JAVAPROJECT\src\com\kh\memoryEx" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kh.practiceEX.dbpre" />
       <recent name="com.kh.practiceTotal" />
       <recent name="com.kh.loopEx" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ArraysPre">
-    <configuration name="ArrayPre" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kh.practiceEX.arrayPre.ArrayPre" />
+  <component name="RunManager" selected="애플리케이션.ProductServiceRun">
+    <configuration name="PersonService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kh.practiceEX.oopArrayPre.PersonService" />
       <module name="javaprojects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kh.arrayEx.*" />
+          <option name="PATTERN" value="com.kh.practiceEX.oopArrayPre.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayToStringEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kh.arrayEx.ArrayToStringEx" />
+    <configuration name="ProductServiceRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kh.practiceEX.oopArrayPre.ProductServiceRun" />
       <module name="javaprojects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kh.arrayEx.*" />
+          <option name="PATTERN" value="com.kh.practiceEX.oopArrayPre.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraysEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kh.arrayEx.ArraysEx" />
+    <configuration name="StudentService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kh.practiceEX.oopArrayPre.StudentService" />
       <module name="javaprojects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kh.arrayEx.*" />
+          <option name="PATTERN" value="com.kh.practiceEX.oopArrayPre.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraysPre" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kh.practiceEX.arrayPre.ArraysPre" />
+    <configuration name="UserService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kh.practiceEX.oopArrayPre.UserService" />
       <module name="javaprojects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kh.practiceEX.arrayPre.*" />
+          <option name="PATTERN" value="com.kh.practiceEX.oopArrayPre.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnifiedMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kh.UnifiedMethods" />
+    <configuration name="UserServiceRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kh.practiceEX.oopArrayPre.UserServiceRun" />
       <module name="javaprojects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kh.*" />
+          <option name="PATTERN" value="com.kh.practiceEX.oopArrayPre.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.ArraysPre" />
-        <item itemvalue="애플리케이션.ArraysEx" />
-        <item itemvalue="애플리케이션.ArrayPre" />
-        <item itemvalue="애플리케이션.ArrayToStringEx" />
-        <item itemvalue="애플리케이션.UnifiedMethods" />
+        <item itemvalue="애플리케이션.ProductServiceRun" />
+        <item itemvalue="애플리케이션.UserServiceRun" />
+        <item itemvalue="애플리케이션.UserService" />
+        <item itemvalue="애플리케이션.StudentService" />
+        <item itemvalue="애플리케이션.PersonService" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +210,10 @@
       <workItem from="1733361964527" duration="4136000" />
       <workItem from="1733366291234" duration="299000" />
       <workItem from="1733366681905" duration="3033000" />
-      <workItem from="1733370100447" duration="47000" />
+      <workItem from="1733370100447" duration="3263000" />
+      <workItem from="1733443504058" duration="12918000" />
+      <workItem from="1733702619520" duration="11805000" />
+      <workItem from="1733714827005" duration="3781000" />
     </task>
     <task id="LOCAL-00001" summary="java tuto">
       <option name="closed" value="true" />
@@ -240,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733368498446</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Arrays">
+      <option name="closed" value="true" />
+      <created>1733370520736</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733370520736</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
