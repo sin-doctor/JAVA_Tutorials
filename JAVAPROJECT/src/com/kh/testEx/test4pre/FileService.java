@@ -1,4 +1,4 @@
-package com.kh.practiceEX.filePre;
+package com.kh.testEx.test4pre;
 
 import java.io.BufferedReader;
 import java.io.File;

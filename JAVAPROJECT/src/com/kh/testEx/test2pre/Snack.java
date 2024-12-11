@@ -5,9 +5,6 @@ public class Snack {
     private String flavor;
     private int price;
 
-    public Snack() {
-    }
-
     public Snack(String name, String flavor, int price) {
         this.name = name;
         this.flavor = flavor;
@@ -28,6 +25,17 @@ public class Snack {
 
     @Override
     public String toString() {
-        return "name=" + name + "flavor=" + flavor + "price=" + price;
+        return "Snack{"+"name='"+name+",flavor='"+flavor+", price="+price+'}';
     }
+
+    /*
+    - name: String
+    - flavor: String
+    - price: int
+    + Snack(name:String, flavor:String, price:int)
+    + getName(): String
+    + getFlavor(): String
+    + getPrice(): int
+    + toString(): String
+    */
 }

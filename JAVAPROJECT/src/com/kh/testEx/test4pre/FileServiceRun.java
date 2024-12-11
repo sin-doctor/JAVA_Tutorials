@@ -1,6 +1,4 @@
-package com.kh.practiceEX.filePre;
-
-import java.io.File;
+package com.kh.testEx.test4pre;
 
 public class FileServiceRun {
     public static void main(String[] args) {

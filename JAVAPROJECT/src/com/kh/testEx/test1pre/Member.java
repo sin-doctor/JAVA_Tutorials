@@ -5,7 +5,7 @@ public class Member {
     private String name;
     private String password;
 
-    // 기본 생성자
+    // 기본생성자 생성
     public Member() {
     }
 
@@ -42,5 +42,18 @@ public class Member {
     public boolean login(String id, String password) {
         return this.id.equals(id) && this.password.equals(password);
     }
-
+    /*
+        - : private    + public
+        - id: String
+        - name: String
+        - password: String
+        + Member(id:String, name:String, password:String)
+        + setId(id:String): void
+        + setName(name:String): void
+        + setPassword(password:String): void
+        + getId(): String
+        + getName(): String
+        + getPassword(): String
+        + login(inputId:String, inputPassword:String): boolean
+    */
 }
