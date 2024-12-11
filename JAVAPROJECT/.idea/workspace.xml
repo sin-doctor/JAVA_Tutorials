@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22831a16-8870-43fa-a551-7c88bb250cc5" name="변경" comment="Service Run/try-resource-catch 문 활용 &#10;File / FileWriter 활용">
-      <change afterPath="$PROJECT_DIR$/src/com/kh/testEx/test1pre/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/testEx/test1pre/MemberRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/testEx/test2pre/Snack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/testEx/test2pre/SnackRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kh/testEx/test3pre/StudentScoreManager.java" afterDir="false" />
+    <list default="true" id="22831a16-8870-43fa-a551-7c88bb250cc5" name="변경" comment="객체/ 배열 / ArrayList/ Set / Map">
+      <change afterPath="$PROJECT_DIR$/src/com/kh/StringEx/StringBufferEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/StringEx/StringBuilderEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/StringEx/StringEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/StringEx/StringRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/StringEx/StringStringBuilderStringBuffer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/memoryEx/05_String불변성 _StringBuilder가변성_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/memoryEx/05_String불변성_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/networkEx/스레드.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/networkEx/프로세스.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kh/testEx/test3pre/StudentSetManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kh/practiceEX/filePre/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kh/practiceEX/filePre/FileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kh/practiceEX/filePre/FileServiceRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kh/practiceEX/filePre/FileServiceRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kh/testEx/test3pre/StudentScoreManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kh/testEx/test3pre/StudentScoreManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +62,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/user1/IdeaProjects/JavaProjects/JAVAPROJECT/src/com/kh/memoryEx",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,8 +87,10 @@
     "애플리케이션.PersonService.executor": "Run",
     "애플리케이션.ProductServiceRun.executor": "Run",
     "애플리케이션.SnackRun.executor": "Run",
+    "애플리케이션.StringRun.executor": "Run",
     "애플리케이션.StudentScoreManager.executor": "Run",
     "애플리케이션.StudentService.executor": "Run",
+    "애플리케이션.StudentSetManager.executor": "Run",
     "애플리케이션.UnifiedMethods.executor": "Run",
     "애플리케이션.UserService.executor": "Run",
     "애플리케이션.UserServiceRun.executor": "Run",
@@ -92,42 +99,21 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user1\IdeaProjects\JavaProjects\JAVAPROJECT\src\com\kh\memoryEx" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user1\IdeaProjects\JavaProjects\JAVAPROJECT\src\com\kh\networkEx" />
       <recent name="C:\Users\user1\IdeaProjects\JavaProjects\JAVAPROJECT\src\com\kh\memoryEx" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kh.StringEx" />
       <recent name="com.kh.practiceEX.dbpre" />
       <recent name="com.kh.practiceTotal" />
       <recent name="com.kh.loopEx" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.StudentScoreManager">
-    <configuration name="FileServiceRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kh.practiceEX.filePre.FileServiceRun" />
-      <module name="javaprojects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kh.practiceEX.filePre.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GoodsServiceRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kh.practiceEX.oopArrayPre.GoodsServiceRun" />
-      <module name="javaprojects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kh.practiceEX.oopArrayPre.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.StringRun">
     <configuration name="MemberRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kh.testEx.test1pre.MemberRun" />
       <module name="javaprojects" />
@@ -154,6 +140,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kh.StringEx.StringRun" />
+      <module name="javaprojects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kh.StringEx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudentScoreManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kh.testEx.test3pre.StudentScoreManager" />
       <module name="javaprojects" />
@@ -167,13 +166,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentSetManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kh.testEx.test3pre.StudentSetManager" />
+      <module name="javaprojects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kh.testEx.test3pre.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.StringRun" />
+        <item itemvalue="애플리케이션.StudentSetManager" />
         <item itemvalue="애플리케이션.StudentScoreManager" />
         <item itemvalue="애플리케이션.SnackRun" />
         <item itemvalue="애플리케이션.MemberRun" />
-        <item itemvalue="애플리케이션.FileServiceRun" />
-        <item itemvalue="애플리케이션.GoodsServiceRun" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +226,7 @@
       <workItem from="1733788644149" duration="13363000" />
       <workItem from="1733802280165" duration="2697000" />
       <workItem from="1733873933329" duration="4903000" />
-      <workItem from="1733879606556" duration="2395000" />
+      <workItem from="1733879606556" duration="17112000" />
     </task>
     <task id="LOCAL-00001" summary="java tuto">
       <option name="closed" value="true" />
@@ -288,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733799464484</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="객체/ 배열 / ArrayList/ Set / Map">
+      <option name="closed" value="true" />
+      <created>1733882049073</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733882049073</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +321,8 @@
     <MESSAGE value="java 실습" />
     <MESSAGE value="Arrays" />
     <MESSAGE value="Service Run/try-resource-catch 문 활용 &#10;File / FileWriter 활용" />
-    <option name="LAST_COMMIT_MESSAGE" value="Service Run/try-resource-catch 문 활용 &#10;File / FileWriter 활용" />
+    <MESSAGE value="객체/ 배열 / ArrayList/ Set / Map" />
+    <option name="LAST_COMMIT_MESSAGE" value="객체/ 배열 / ArrayList/ Set / Map" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

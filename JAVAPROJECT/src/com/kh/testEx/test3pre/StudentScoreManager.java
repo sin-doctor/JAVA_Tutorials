@@ -1,8 +1,6 @@
 package com.kh.testEx.test3pre;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class StudentScoreManager {
     public static void main(String[] args) {
@@ -55,6 +53,12 @@ public class StudentScoreManager {
             System.out.println(entry.getKey() + ": " + result);
         }
     }
+
+    Set<String> studentSet = new HashSet<>();
+    Scanner scanner = new Scanner(System.in);
+    boolean exit = false;
+
+
 }
 
 
